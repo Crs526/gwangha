@@ -1,0 +1,177 @@
+/************ TAG SELECTORS ***********/
+
+body {
+  background-color: ##b0ecfe;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather'; serif;
+  font-size: 1.2em;
+  color: #40514E;
+
+}
+
+h1 {
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Montserrat' , sans-serif;
+  color: #11999E;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+hr {
+  border: dotted #EAF6F6 8px;
+  width: 5%;
+  border-bottom: none;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat' , sans-serif;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+p {
+  line-height: 2;
+}
+
+/************ CLASS SELECTORS - I should go back and gropu these by image, text etc and
+then do those sections alphabetically instead of just the whole think alphabetical***********/
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.bottom-container {
+background-color: #66BFBF;
+margin-top: 100px;
+padding-bottom: 16px;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright-text {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+.footer-link {
+  margin: 35px;
+  text-decoration: none;
+}
+
+.footer-padding {
+  padding-top: 50px;
+}
+
+.Gwang {
+width: 20%;
+margin: 100px auto;
+}
+
+.leaf {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.middle-container {
+
+}
+
+.mountain {
+  margin-bottom: 100px;
+}
+.pinecone-text {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.heading-container {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.hello-description {
+width: 30%;
+margin: auto;
+}
+
+.leaf-description {
+  clear: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.puzzle {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+.puzzle-words {
+  clear: right;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
